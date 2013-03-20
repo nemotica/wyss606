@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+    
+    <vnode name="sVideoClipName" format = "sVideoFormat">
+        <vsize>100000000</vsize>
+        <vdir>C:\\video_directory</vdir>
+        <vdataset>for example:MED2012</vdataset>
+      
+        <features count="featureNum">
+          
+            <fnode name="mosift">
+                <ftype>motion detection</ftype>
+                <fdir>C:\\mosift_features_example.key</fdir>
+                <finfo>some info about the mosift feature</finfo>
+            </fnode>
+          
+            <fnode>
+              ...
+            </fnode>
+          
+        </features>
+      
+    </vnode>
+  
+</catalog>
